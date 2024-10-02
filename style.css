@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    background-color: white;
+
+    width: 100%;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.534);
+    
+    z-index: 500;
+}
+
+.Head {}
+
+.Head>p>a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 8px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: lightgray;
+    }
+}
+
+/* .Navigation {} */
+
+.Navlist {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;
+    align-items: center;
+    font-size: 10px;
+}
+
+.Navlist>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: rgb(211, 211, 211);
+    }
+}
+
+.Backimg {
+    background: url(architect.jpg) no-repeat fixed center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Backimg>p {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Backimg>p>b {
+    font-weight: bolder;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.737);
+    padding: 0px 10px;
+
+}
+
+.Heading1 {
+    padding: 15px 25px;
+}
+
+.Heading1>p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+}
+
+hr {
+
+    width: 95%;
+    border: 1px solid #eee;
+    margin: auto;
+}
+.Image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+}
+
+.projectImages {
+    height: 165px;
+    width: 225px;
+    position: relative;
+}
+
+.projectImages > span{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.projectImages > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.Paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    padding: 10px 24px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.About{
+    display: flex;
+    justify-content:space-between; 
+    padding: 10px 30px; 
+    width: 100%; 
+    align-items:center;
+    gap: 15px;  
+
+}
+.Image1{
+    color: black;
+    width: 15rem;
+    overflow: hidden; 
+    background-color: white;
+    filter: saturate(0.4);
+}
+.Image2{
+    height: 12rem;
+    background-color: white;
+
+}
+.Image2> img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Bio1{
+    padding: 15px 0px;
+    display: flex; 
+    align-items: start; 
+    flex-direction: column; 
+    gap: 12px;
+}
+.Bio1 > span{
+    color: gray;
+}
+
+.Button{
+    background-color: lightgray;
+    color: black;
+    padding: 6px 95px;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: grey;
+        
+    }
+    cursor: pointer;
+}
+
+
+.Contact{
+padding: 15px 25px;
+}
+.Contact1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    margin: 16px;
+/* }
+hr{
+    width: 96%;
+    border: 1px solid #eee;
+    margin: auto; */
+}
+.Contact2{
+    margin: 16px;
+}
+.Contactform{
+    display: flex;
+    flex-direction: column;
+}
+.forminput{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* .Button2 { 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: lightgray;
+    }
+}*/
+.Button2 >button{
+    padding: 10px 16px;
+    border: none;
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: gray;
+    }
+}
+
+.Map > img{
+    width: 100%;
+    height: 100%;
+    padding: 12px 20px;
+}
+.Footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:  30px;
+}
+  .Footer > p >a{
+    color: white;
+    transition: all 0.3s ease;
+    &:hover{
+        color: green;
+    }
+    
+    } 
